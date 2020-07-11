@@ -1,4 +1,4 @@
-/** teniendo en cuenta que la entrada puede vale 10^8, no puedes trabajar con enteros ya que 2*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
