@@ -1,3 +1,4 @@
+twitter/insta: @dgr_099 ;-)
 //sin terminar//
 #include <iostream>
 #include <string.h>
