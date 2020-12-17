@@ -4,12 +4,11 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);  cout.tie(NULL);
     string palabra;
-    short criba[1041]={0};
+    short criba[21*52]={0};
     for(int i=2; i*i<=52*20; i++){
         int z=i;
         int total;
-        int j=z;
-        for(total=j*z; total<=52*20; z++, total=j*z){
+        for(total=i*z; total<=52*20; z++, total=i*z){
             criba[total]=1;
         }
     }
